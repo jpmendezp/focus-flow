@@ -153,7 +153,7 @@
 
   function updateStats() {
     els.statToday.textContent = state.dailyCounts[todayKey()] || 0;
-    els.statTotal.textContent = state.garden.length;
+    els.statTotal.textContent = state.totalSessions;
     els.statStreak.textContent = state.streak;
   }
 
